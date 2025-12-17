@@ -239,19 +239,27 @@
 
   <div class="contact">
     <div class="contact-info">
-      <p><strong data-i18n="phoneLabel">Phone:</strong> +123 456 7890</p>
-      <p><strong data-i18n="whatsappLabel">WhatsApp:</strong> +123 456 7890</p>
-      <p><strong data-i18n="addressLabel">Address:</strong> 123 Education Street, City</p>
+      <p><strong data-i18n="phoneLabel">Phone:</strong> 05 56862513</p>
+      <p><strong data-i18n="whatsappLabel">WhatsApp:</strong> 05 56862513</p>
+      <p><strong data-i18n="addressLabel">Address:</strong> 17 rue Mohamed khmisti , ain beida</p>
 
-      <iframe src="https://maps.google.com/maps?q=Education%20Street&t=&z=14&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
+   <iframe
+  src="https://maps.google.com/maps?q=35.7970032,7.3927139&t=&z=17&ie=UTF8&iwloc=&output=embed"
+  loading="lazy"
+  width="100%"
+  height="450"
+  style="border:0;">
+</iframe>
+
     </div>
 
-    <form>
-      <input type="text" placeholder="Your Name" data-i18n-placeholder="name" required>
-      <input type="email" placeholder="Your Email" data-i18n-placeholder="email" required>
-      <textarea rows="4" placeholder="Your Message" data-i18n-placeholder="message" required></textarea>
-      <button type="submit" data-i18n="send">Send Message</button>
-    </form>
+   <form action=https://formspree.io/f/mwpggjvj method="POST">
+  <input type="text" name="name" placeholder="Your Name" data-i18n-placeholder="name" required>
+  <input type="email" name="email" placeholder="Your Email" data-i18n-placeholder="email" required>
+  <textarea name="message" rows="4" placeholder="Your Message" data-i18n-placeholder="message" required></textarea>
+  <button type="submit" data-i18n="send">Send Message</button>
+</form>
+
   </div>
 </section>
 
